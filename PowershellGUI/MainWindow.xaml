@@ -1,0 +1,17 @@
+﻿<Window x:Class="PowerShellGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PowerShellGUI"
+        mc:Ignorable="d"
+        Title="Window" Height="500" Width="403">
+    <Grid>
+        <Label Content="Computer Name:&#x9;" HorizontalAlignment="Left" Margin="10,13,0,0" VerticalAlignment="Top" Width="103"/>
+        <TextBox Name="txtComputer" HorizontalAlignment="Left" Margin="118,15,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="174" Height="23"/>
+        <Button Name="btnQuery" Content="Send IT!" Margin="312,16,9.8,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox Name="txtResults" IsReadOnly="True" HorizontalAlignment="Left" Height="387" Margin="10,74,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="377"/>
+        <Button Name="pingQuery" Content="Ping!" HorizontalAlignment="Left" Margin="312,41,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
